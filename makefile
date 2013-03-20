@@ -1,7 +1,7 @@
 
 CC=gcc
 CFLAGS=-Wall -I../inter
-LIBS = ../inter/libinter.a -lcurses -lmalloc
+LIBS = ../inter/libinter.a -lcurses
 
 all:  lib life
 
@@ -19,4 +19,3 @@ life_i.o:	life_i.c life.h
 
 clean:
 	rm -f *.o *.obj life.exe life
-        
