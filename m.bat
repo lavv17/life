@@ -1,0 +1,1 @@
+tmake -flife.mak

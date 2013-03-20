@@ -1,0 +1,24 @@
+
+CFLAGS=-I../inter -g
+LIBS=../inter/libinter.a -lpc -lstdio
+CC=gcc
+SHELL=sh
+
+.c.o:
+	$(CC) -c $(CFLAGS) $<
+
+all:  lib life
+
+lib:
+	cd ..\inter
+	make -f makefile.gcc
+	cd ..\life
+
+life:	life.o life_i.o ../inter/libinter.a
+	$(CC) $(CFLAGS) -o life life.o life_i.o $(LIBS)
+
+life.o:		life.c life.h
+life_i.o:	life_i.c life.h
+
+clean:
+	rm -f *.o *.obj life.exe life

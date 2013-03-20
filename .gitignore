@@ -1,0 +1,6 @@
+*.o
+*.obj
+*.exe
+.le.ini
+ne.ini
+life
