@@ -33,8 +33,8 @@ struct   y_list   *Field=NULL;
 struct   count    *Count;
 struct   count    **Base;
 
-long  Generation=0;
-long  Population=0;
+unsigned long  Generation=0;
+unsigned long  Population=0;
 
 void     FreeLine(struct x_list *line)
 {

@@ -30,5 +30,5 @@ extern   void  ChangeCell(long x,long y,int op);
 #define  SET   1
 #define  CLR   2
 
-extern   long  Population;
-extern   long  Generation;
+extern   unsigned long  Population;
+extern   unsigned long  Generation;
