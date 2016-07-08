@@ -10,6 +10,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "life.h"
 #include "inter.h"
 #include "ow.h"
