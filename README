@@ -22,5 +22,8 @@ screen interface. "life.txt" file contains a detailed article in Russian.
 The program can be compiled on DOS using Turbo C or DJGPP compilers and on
 UNIX (Linux).
 
+To get the Inter library use this command:
+   git clone https://github.com/lavv17/inter.git
+
 --
    Alexander V. Lukyanov <lav@netis.ru>

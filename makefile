@@ -1,6 +1,6 @@
 
 CC=gcc
-CFLAGS=-Wall -I../inter
+CFLAGS=-O -g -Wall -I../inter
 LIBS = ../inter/libinter.a -lcurses
 
 all:  lib life
